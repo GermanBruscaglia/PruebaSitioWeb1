@@ -1,0 +1,52 @@
+.header{
+    background: none;
+    height: max-content;
+}
+
+.contenido-principal{
+    background: grey;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.formulario{
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.788);
+}
+.formulario h3{
+    font-size: 30px;
+}
+label{
+    margin-top: 20px;
+    font-size: 20px;
+}
+input{
+    padding: 10px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+@media only screen and (max-width: 400px){
+    .formulario h3{
+        font-size: 12px ;
+    }
+    label{
+        font-size: 12px;
+    }
+    input{
+        padding: 2px;
+    }
+}
